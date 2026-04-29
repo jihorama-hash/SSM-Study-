@@ -30,9 +30,9 @@ model.train(data="data.yaml", epochs=100, imgsz=640)
 4. 학습 결과
 성능 지표
 Metric	Value
-mAP50	0.91
-Precision	0.88
-Recall	0.85
+- mAP50	0.91
+- Precision	0.88
+- Recall	0.85
 
 5. Tracking 및 Trajectory 생성 알고리즘: ByteTrack
 출력:
@@ -44,8 +44,8 @@ trajectory (x, y, t)
   a. TTC (Time To Collision)
   b. PET (Post Encroachment Time)
 계산 방식
-  TTC < 1.5 sec → 위험 이벤트
-  PET < 2.0 sec → 충돌 가능성
+  - TTC < 1.5 sec → 위험 이벤트
+  - PET < 2.0 sec → 충돌 가능성
 
 7. Risk Analysis
 Heatmap 생성
@@ -67,3 +67,6 @@ python train.py python detect.py
 모델 버전: yolov8n.pt
 데이터 버전: v1.2
 코드 commit: abc123
+
+## 사무실 작업
+2026-04-29 Office 에서 테스트 Commit
