@@ -41,11 +41,11 @@ trajectory (x, y, t)
 
 6. SSM (Surrogate Safety Measure)
 사용 지표:
-TTC (Time To Collision)
-PET (Post Encroachment Time)
+  a. TTC (Time To Collision)
+  b. PET (Post Encroachment Time)
 계산 방식
-TTC < 1.5 sec → 위험 이벤트
-PET < 2.0 sec → 충돌 가능성
+  TTC < 1.5 sec → 위험 이벤트
+  PET < 2.0 sec → 충돌 가능성
 
 7. Risk Analysis
 Heatmap 생성
@@ -60,12 +60,10 @@ Heatmap 생성
 
 9. 실행 방법
 git clone <repo_url> cd project
-
 pip install -r requirements.txt
-
 python train.py python detect.py
 
-재현 방법 (Reproducibility)
+10. 재현 방법 (Reproducibility)
 모델 버전: yolov8n.pt
 데이터 버전: v1.2
 코드 commit: abc123
