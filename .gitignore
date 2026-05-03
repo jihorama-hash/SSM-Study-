@@ -1,0 +1,19 @@
+# data
+data/
+
+# runs
+runs/
+
+# model weights
+*.pt
+
+# video
+*.mp4
+*.avi
+
+# python
+__pycache__/
+*.pyc
+
+# env
+.env
